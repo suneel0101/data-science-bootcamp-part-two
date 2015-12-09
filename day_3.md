@@ -142,7 +142,7 @@ Let's create a dummy bar chart to learn how to use the plot.ly library.
 Re-do the earlier bar chart with Plot.ly.
 
 ## Grouped Bar Charts
-![Grouped Bar Chart](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/grouped-bar)
+<img alt="Grouped Bar Chart" src="https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/grouped-bar" width="250">
 
 ### Solo Exercise
 What are the top 3 markets by funding total?
