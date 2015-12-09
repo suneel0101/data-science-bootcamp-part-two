@@ -142,6 +142,8 @@ Let's create a dummy bar chart to learn how to use the plot.ly library.
 Re-do the earlier bar chart with Plot.ly.
 
 ## Grouped Bar Charts
+![Grouped Bar Chart](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/grouped-bar)
+
 ### Solo Exercise
 What are the top 3 markets by funding total?
 
@@ -149,10 +151,14 @@ What are the top 3 markets by funding total?
 Let's use this to create a grouped bar side-by-side comparison of how many $$ were funding in NYC in each market vs SF. Instead of LA Zoo and SF Zoo, it'll be NYC and SF. Instead of giraffes, orangutans, and monkeys, it'll be the A, B and C markets.
 
 ## Stacked Bar Charts
+![Stacked Bar Chart](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/stacked-bar)
+
 0. Let's turn the previous chart into a stacked one.
 1. Let's change the colors.
 
 ## Timeseries Chart
+![Timeseries](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/timeseries)
+
 [Here's](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/aapl.csv) the data on AAPL.
 
 ### Solo Exercise
