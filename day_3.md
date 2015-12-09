@@ -157,7 +157,7 @@ Let's use this to create a grouped bar side-by-side comparison of how many $$ we
 1. Let's change the colors.
 
 ## Timeseries Chart
-![Timeseries](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/timeseries)
+![Timeseries](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/timeseries = 250x)
 
 [Here's](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/aapl.csv) the data on AAPL.
 
