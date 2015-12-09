@@ -14,7 +14,7 @@ Students will be able to
 3. Practice on a New Dataset (60m)
 4. Intro to Timestamps (45m)
 5. Intro to Visualization within `pandas` (45m)
-6. Intro to Visualization with Plot.ly (90)
+6. Intro to Visualization with Plot.ly (120)
 
 # Pandas warm up and review
 Read in [this dataset](https://s3.amazonaws.com/python-level-2/sales-funnel.csv) and answer the following:
