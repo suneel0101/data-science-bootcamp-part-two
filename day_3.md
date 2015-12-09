@@ -105,6 +105,7 @@ We'll be sticking with our Crunchbase dataset for this section.
 
 0. Let's google Plotly
 1. Explore their charts gallery
+2. Plotly vs d3?
 
 ## Installation
 In your terminal, run `conda pip install plotly`
