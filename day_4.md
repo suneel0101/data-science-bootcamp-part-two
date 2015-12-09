@@ -181,10 +181,10 @@ Let's go back to our cancer dataset.
 1. Tune those parameters. How does the accuracy change? Which is the best choice of parameters?
 
 # Final Practice
-[Here's]() a dataset about X.
+[Here's](https://archive.ics.uci.edu/ml/datasets/Semeion+Handwritten+Digit) your dataset.
 
 ## Exercise (with Partner)
-0. Read in the data
+0. Read in the data. What is it about?
 1. Identify the features and the target
 2. Run a kNN model. Tune it to find the best choice of `k`.
 3. Run a logistic model. Tune it.
