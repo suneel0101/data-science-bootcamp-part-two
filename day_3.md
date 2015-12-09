@@ -177,6 +177,6 @@ Read in [GOOG data](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/goog.c
 
 This is a dataset of number of hotdogs eaten per day by these champion hot-dog eaters.
 
-![Heatmap Example](http://i.imgur.com/y6maNWG.png)
+![Heatmap Example](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/heatmap)
 
 We're going to walk through it together.
