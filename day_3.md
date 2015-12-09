@@ -170,8 +170,12 @@ Let's graph closing price over time.
 ### With Partner
 Read in [GOOG data](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/goog.csv) and have both AAPL and Google plots on the same graph.
 
-## Last stop: Annotated Datetime Heatmap
-[Here's]() the data. Read it in with `pandas`.
+## Last stop: Datetime Heatmap
+![Hotdog Eaters](http://i.huffpost.com/gen/3141626/images/n-ERIC-BOOKER-HOTDOG-large570.jpg)
+
+[Here's](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/hotdog-eaters.csv) the data. Read it in with `pandas`.
+
+This is a dataset of number of hotdogs eaten per day by these champion hot-dog eaters.
 
 ![Heatmap Example](http://i.imgur.com/y6maNWG.png)
 
