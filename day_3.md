@@ -38,20 +38,17 @@ Then write code to answer the following:
 
 Creative exercise: pair up and come up with pivot tables you would find useful. Then we'll share.
 
+## Cross-tabulation
+What if we want a tabulation of counts?
+
+Exercise: Compute a cross-tabulation that shows how many accounts are in each status for each product broken down by manager and rep.
+
 ## Groupby
 0. Let's Google `pandas groupby` and look at the docs and a few examples.
-1. How is this different from `pivot_table`?
-2. Let's use it for some actual computations.
+1. Let's group on status and aggregate using the `np.sum` function.
 
-Using `groupby`, answer the following:
-
-## Stack/Unstack
-0. Let's Google `pandas stack unstack` and look at the docs and a few examples.
-1. How does this relate to pivot tables?
-2. What are indexes, single-level vs. multi-level?
-3. Let's use it.
-
-Using any combo of `stack`, `unstack`, `pivot_table` and `groupby`, answer the following:
+Exercise
+Achieve the same output using a pivot table.
 
 # Working with Text Data
 0. Let's go to the `pandas` docs section on working with text data.
@@ -72,7 +69,7 @@ Exercises:
 3. Create a pivot table of market against total funding, sorted from highest to lowest and only include the top 10.
 4. How many companies contain the Game category?
 5. What is the average funding total of companies from the city `New York`? How about `San Francisco`? How do they compare?
-6. Get descriptive statistics on the dataset (good to do this at the beginning).
+6. Get descriptive statistics on the dataset (good to do this at the beginning of your analysis).
 
 ## Guided
 0. What are the most popular categories? (intro to `str.get_dummies`)
