@@ -23,6 +23,7 @@ Read in [this dataset](https://s3.amazonaws.com/python-level-2/sales-funnel.csv)
 1. What insights do you want to extract from it?
 
 Then write code to answer the following:
+
 0. How many rows have a price greater than $8,000?
 1. How many rows are pending AND have a price greater than $8,000?
 2. How many rows are pending OR have a price greater than $8,000?
@@ -58,6 +59,7 @@ Using any combo of `stack`, `unstack`, `pivot_table` and `groupby`, answer the f
 2. Let's lowercase the Rep column with `.str.lower`
 
 Exercises:
+
 0. Replace the product category `CPU` with `monkey`
 1. Upper case the product category column.
 2. Create a new column called "contains_monkey" using `str.contains` based on the product category value.
