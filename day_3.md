@@ -81,20 +81,20 @@ Read in [this dataset](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/dat
 1. Let's google `pandas timestamps`
 2. Let's convert necessary columns into timestamps.
 3. Let's compute the duration and add a column with the result.
-4. Let's create a column called "5 minute periods".
+4. Let's create a column called "hour_periods".
 
 ## With Partner
 0. What is the average trip time? What is the minimum and maximum trip time? What is the standard deviation?
 1. What's average trip time broken down by station? Sort from longest to shortest, including only the top 15.
-2. Create a column called `10 minute periods` that assigns the starttime to a ten-minute period.
+2. Create a column called `daily periods` that assigns the starttime to a day-period.
 3. Create a column called `month` that contains the month of the starttime
 
 # Intro to Visualization within `pandas`
 Let's go back to our crunchbase data.
 
 0. Plot bar graph top 5 markets against funding total.
-1. Plot pie chart of top 5 markets against funding total
-2. Make the graphs nicer with axis labeling, tickmarks, title, etc.
+1. Plot pie chart of top 5 countries against funding total
+2. Use the docs of `DataFrame.plot` to make the graphs nicer with axis labeling, legend, title, etc.
 
 ## With Partner
 Creative exercise: what over visualizations on this dataset would interest you? Create them! Then we'll share.
@@ -153,7 +153,6 @@ Let's use this to create a grouped bar side-by-side comparison of how many $$ we
 <img alt="Stacked Bar Chart" src="https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/stacked-bar" width="300">
 
 0. Let's turn the previous chart into a stacked one.
-1. Let's change the colors.
 
 ## Timeseries Chart
 <img alt="Timeseries" src="https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/timeseries" width="300">
@@ -165,6 +164,9 @@ Read it in with `pandas`.
 
 ### Together
 Let's graph closing price over time.
+
+### Solo Exercise
+Graph the Low Price and High Price on the same plot.
 
 ### With Partner
 Read in [GOOG data](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/goog.csv) and have both AAPL and Google plots on the same graph.
@@ -179,3 +181,6 @@ This is a dataset of number of hotdogs eaten per day by these champion hot-dog e
 ![Heatmap Example](https://s3-us-west-2.amazonaws.com/ga-dat-2015-suneel/heatmap)
 
 We're going to walk through it together.
+
+### With Partner Exercise
+Using our crunchbase data set, create a heatmap where the x axis is the top 5 markets by funding total, y axis are the countries with country_code USA, AUS, BRA, and RUS, and the z axis is the total funding amount for each country-market combination.
